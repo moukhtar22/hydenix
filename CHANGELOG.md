@@ -1,3 +1,10 @@
+# [5.2.0](https://github.com/richen604/hydenix/compare/v5.1.2...v5.2.0) (2026-01-01)
+
+
+### Features
+
+* added vm config output ([f189604](https://github.com/richen604/hydenix/commit/f1896046540011cc1bede46aff0db5c70a7b6b67))
+
 ## [5.1.2](https://github.com/richen604/hydenix/compare/v5.1.1...v5.1.2) (2026-01-01)
 
 
