@@ -1,3 +1,10 @@
+## [5.1.2](https://github.com/richen604/hydenix/compare/v5.1.1...v5.1.2) (2026-01-01)
+
+
+### Bug Fixes
+
+* update nixpkgs, fix hyq build ([ee9b502](https://github.com/richen604/hydenix/commit/ee9b50242818a68408ccf72acc534859ebfd57ed))
+
 ## [5.1.1](https://github.com/richen604/hydenix/compare/v5.1.0...v5.1.1) (2025-11-15)
 
 
