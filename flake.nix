@@ -3,7 +3,7 @@
 
   inputs = {
     # Hydenix's nixpkgs
-    nixpkgs.url = "github:nixos/nixpkgs/117cc7f94e8072499b0a7aa4c52084fa4e11cc9b";
+    nixpkgs.url = "github:nixos/nixpkgs/95e96e8632c387dcf8c4223b8ab14a58936f8b10";
     home-manager = {
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -22,7 +22,6 @@
     # HyDE related binaries
     hyq = {
       url = "github:richen604/hyprquery";
-      inputs.nixpkgs.follows = "nixpkgs";
     };
     hydectl = {
       url = "github:richen604/hydectl";

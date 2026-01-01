@@ -16,10 +16,10 @@ let
     Bibata-Modern-Ice = callPackage ./Bibata-Modern-Ice.nix { };
     hyde = callPackage ./hyde.nix { inherit inputs; };
     hydenix-themes = callPackage ./themes/default.nix { };
-    hyq = inputs.hyq.packages.${prev.system}.default;
-    hydectl = inputs.hydectl.packages.${prev.system}.default;
-    hyde-ipc = inputs.hyde-ipc.packages.${prev.system}.default;
-    hyde-config = inputs.hyde-config.packages.${prev.system}.default;
+    hyq = inputs.hyq.packages.${prev.stdenv.hostPlatform.system}.default;
+    hydectl = inputs.hydectl.packages.${prev.stdenv.hostPlatform.system}.default;
+    hyde-ipc = inputs.hyde-ipc.packages.${prev.stdenv.hostPlatform.system}.default;
+    hyde-config = inputs.hyde-config.packages.${prev.stdenv.hostPlatform.system}.default;
   };
 in
 packages
