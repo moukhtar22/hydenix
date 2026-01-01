@@ -58,6 +58,8 @@
     in
     {
 
+      lib.vmConfig = import ./lib/vms/nixos-vm.nix;
+
       # Direct module access
       homeModules.default = import ./hydenix/modules/hm;
       nixosModules.default = import ./hydenix/modules/system;
