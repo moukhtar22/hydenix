@@ -18,10 +18,10 @@ in
   };
 
   config = lib.mkIf cfg.enable {
-    environment.systemPackages = [
-      pkgs.hyde
-      pkgs.Bibata-Modern-Ice
-      pkgs.sddm-astronaut
+    environment.systemPackages = with pkgs; [
+      hyde
+      Bibata-Modern-Ice
+      sddm-astronaut
     ];
 
     # Add this section to ensure cursor theme is properly loaded

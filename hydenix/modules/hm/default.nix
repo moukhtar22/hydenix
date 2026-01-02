@@ -1,9 +1,7 @@
 {
-  config,
   lib,
   ...
 }:
-
 {
   imports = [
     ./mutable.nix

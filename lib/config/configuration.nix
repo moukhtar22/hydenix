@@ -1,21 +1,10 @@
 {
   inputs,
+  pkgs,
   ...
 }:
-let
-  system = "x86_64-linux";
-  pkgs = import inputs.nixpkgs {
-    inherit system;
-    config.allowUnfree = true;
-    overlays = [
-      inputs.self.overlays.default
-    ];
-  };
-in
+
 {
-
-  nixpkgs.pkgs = pkgs;
-
   imports = [
     inputs.home-manager.nixosModules.home-manager
     ./hardware-configuration.nix
