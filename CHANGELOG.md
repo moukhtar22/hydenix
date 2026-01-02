@@ -1,3 +1,13 @@
+# [6.0.0](https://github.com/richen604/hydenix/compare/v5.2.0...v6.0.0) (2026-01-02)
+
+
+* feat!: properly version pin nixpkgs ([238613e](https://github.com/richen604/hydenix/commit/238613e7b1ea0c73400600570e3343975072f6bc))
+
+
+### BREAKING CHANGES
+
+* revise `flake.nix` and `configuration.nix` as per `./template` to properly start pinning hydenix versions
+
 # [5.2.0](https://github.com/richen604/hydenix/compare/v5.1.2...v5.2.0) (2026-01-01)
 
 
