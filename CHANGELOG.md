@@ -1,3 +1,10 @@
+## [6.0.1](https://github.com/richen604/hydenix/compare/v6.0.0...v6.0.1) (2026-01-03)
+
+
+### Bug Fixes
+
+* better impl of pinning nixpkgs ([3057e5f](https://github.com/richen604/hydenix/commit/3057e5fc64522ad46418f146e1ad95db640ec6cb))
+
 # [6.0.0](https://github.com/richen604/hydenix/compare/v5.2.0...v6.0.0) (2026-01-02)
 
 
