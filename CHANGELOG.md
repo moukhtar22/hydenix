@@ -1,3 +1,10 @@
+## [6.0.2](https://github.com/richen604/hydenix/compare/v6.0.1...v6.0.2) (2026-01-23)
+
+
+### Bug Fixes
+
+* change hyde-shell execution to use bashInteractive ([98140fd](https://github.com/richen604/hydenix/commit/98140fd6dd4d743592b0aa3cb51ae9f5324e43fe))
+
 ## [6.0.1](https://github.com/richen604/hydenix/compare/v6.0.0...v6.0.1) (2026-01-03)
 
 
